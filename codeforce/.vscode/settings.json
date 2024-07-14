@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "iostream": "cpp",
+    "*.tcc": "cpp",
+    "list": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
+  },
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}

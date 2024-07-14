@@ -1,0 +1,3 @@
+Time conplexity depends on the number of times a loop is exexuting and number of 
+lengt of a variable(The length of variable dosen't change when we are dealing with normal variables, it changes when we are using arrays as with array we create new variables)
+for 

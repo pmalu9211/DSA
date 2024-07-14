@@ -1,0 +1,25 @@
+You should use referece whenever possible in vector and any other data types
+
+coz the referece takes less space while when using a copy of that type in function
+new function is created and thus more complex
+
+auto keywork is used for all types of variables in general for int and float
+
+maps are containers, they are complete data structure having linkage between
+the elements unlike pair
+the operations of insertion, delation, finding are all of O(log(n))
+NOTE : when you are inserting a string in map then :
+ it's time complexity is string.length()*O(log(n))
+ as there are comparasions going on in the red black tree, and string comparasions
+ take more time
+
+ UNORDERED maps are like map but they store values using hashtables not tree
+ all the operations that take O(log(n)) takes O(1) in unordered maps
+ Datatypes like <vector> and others can't be hased so they are not valid Datatypes
+ for defining unordered maps
+ unordered_map<vector<int>,int> m is invalid
+ the values are stored in an unordered fashion unlike normal maps
+
+ Sets
+ they can have nested containers and the value is stored in ordered way 
+ no value is repeated in the sets

@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp"
+    },
+    "cph.general.onceMaintainerMessage": false
+}

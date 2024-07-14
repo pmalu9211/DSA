@@ -1,0 +1,9 @@
+
+
+Heap and stack are two forms of memory
+heap is dynamic memory {used at runtime} and 
+stack is stactic memory (used at complie time)
+
+to use heap we have to create it using new keywords 
+heap memory is huge
+

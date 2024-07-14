@@ -1,0 +1,20 @@
+lectur number 28;
+
+reference variables are a variable that holds reference to a particular variable
+eg: int a = 0;
+int &v = a;
+the variable v stores reference to the variable a;
+we can directly access a via v
+
+pass by reference
+in a function we can pass by reference, in it we modify and shit the variable passed
+
+add(int &a){
+
+}
+
+the difference between passing by reference and variable is
+in variable a new variable is creared in the function and the operations 
+are performed on it
+
+in reference a new reference variable is created that represents the input variable

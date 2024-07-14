@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Budhwarpeth</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+		}
+		.header h1 {
+			margin: 0;
+			font-size: 36px;
+			color: #f2f2f2;
+			text-shadow: 2px 2px #333;
+		}
+		.menu-icon {
+			display: none;
+		}
+		.menu {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			z-index: 1;
+		}
+		.menu a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+			font-size: 24px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			padding: 5px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		.menu a:hover {
+			background-color: #f2f2f2;
+			color: #333;
+		}
+		.menu-icon {
+			display: block;
+			font-size: 30px;
+			cursor: pointer;
+		}
+		.products {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			margin: 100px auto;
+			max-width: 1200px;
+			padding: 0 20px;
+		}
+		.product {
+			background-color: #fff;
+			margin: 20px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			width: calc((100% / 2) - 40px);
+		}
+		.product img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			margin-bottom: 10px;
+		}
+		.product h2 {
+			font-size: 24px;
+			margin: 10px 0;
+		}
+		.product p {
+			font-size: 18px;
+			color: #666;
+			margin: 0;
+		}
+		@media only screen and (max-width: 768px) {
+			.menu {
+				flex-direction: column;
+				align-items: flex-start;
+				position: fixed;
+				top: 0;
+				left: -100%;
+				width: 100%;
+				height: 100vh;
+				transition: left 0.3s ease;
+			}
+			.menu.show {
+				left: 0;
+			}
+			.menu a {
+				display: block;
+				margin: 20px;
+			}
+			.menu-icon {
+				display: block;
+			}
+			.header {
+				padding-top: 70px;
+			}
+			.products {
+				margin-top: 150px;
+			}
+			.product {
+				width: 100%;
+			}
+		}

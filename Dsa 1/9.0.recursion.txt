@@ -1,0 +1,3 @@
+in recusrion we call the function inside that function this recusion occurs
+we can reduce the lines of code by using this
+
